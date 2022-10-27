@@ -13,6 +13,10 @@ break;
 case "c":
 answer = "cat";
 break;
+    
+case "d":
+answer = "dog";
+break;
 
 default:
 answer = "stuff";
