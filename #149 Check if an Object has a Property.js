@@ -19,10 +19,10 @@ let users = {
 
 function isEveryoneHere(userObj) {
   // Only change code below this line
-  return (users.hasOwnProperty('Alan')&&
-  users.hasOwnProperty('Jeff') &&
-  users.hasOwnProperty('Sarah') &&
-  users.hasOwnProperty('Ryan') )
+  return (userObj.hasOwnProperty('Alan')&&
+  userObj.hasOwnProperty('Jeff') &&
+  userObj.hasOwnProperty('Sarah') &&
+  userObj.hasOwnProperty('Ryan') )
   // Only change code above this line
 }
 
